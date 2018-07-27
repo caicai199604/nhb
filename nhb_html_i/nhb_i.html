@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link href="../css/common/mui.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="../css/common/whole.css"/>
+	    <link rel="stylesheet" href="../css/nhb_i/i.css"/>
+	    <script src="../js/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../js/common/mui.js"></script>
+	    <script src="../js/common/ajax.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		 <header class="mui-bar mui-bar-nav ">
+	    	<div class="mui-row">
+	    		<div class="mui-col-xs-3  img">
+	    			<img src="../imgs/1.jpg"/>
+	    		</div>
+	    		<div class="mui-col-xs-9">
+    				<div>
+    					<span class="name">一脸懵逼</span>
+    					<span class="set mui-pull-right">设置</span>
+    				</div>
+    				<div class="memberandentershop">
+    					 <span class="member bg-gray" id="leaguercertification"><img src="../imgs/icon_vip@2x.png"/>会员认证</span>
+    					 <span class="member bg-pink"><img src="../imgs/icon_vip2.svg"/>拿货会员</span>
+    					 <span class="entershop"><span>进入店铺</span><img src="../imgs/icon_youjiantou.svg" alt="" /></span>
+    				</div>
+	    		</div>
+	    	</div>
+		</header>
+		<div class="mui-content ">
+			<div class="balancerecharge ">
+				<div class="balancere ">
+					余额:&nbsp;<span>￥321321</span>
+				</div>
+				<div class="charge">
+					充值
+				</div>
+			</div>
+			<ul class="mui-table-view ">
+				<li class="iorder">	我的订单<span><img src="../imgs/icon_youjiantou.svg"/></span></li>
+				<li class="shoporder">店铺订单<span><img src="../imgs/icon_youjiantou.svg"/></span></li>
+				<li class=" mid">
+					<div><img src="../imgs/icon_dfk.svg"/><span class="info">2</span><span>待付款</span></div>
+					<div><img src="../imgs/icon_dff.svg"/><span class="info">2</span><span>待发货</span></div>
+					<div><img src="../imgs/icon_dsh.svg"/><span class="info">2</span><span>待收货</span></div>
+					<div class="evaluated"><img src="../imgs/icon_dpj.svg"/><span class="info">2</span><span>待评价</span></div>
+					<div class="complete"><img src="../imgs/icon_dpj.svg"/><span class="info">2</span><span>已完成</span></div>
+					<div id="refundable"><img src="../imgs/cion_th.svg"/><span class="info">2</span><span>退换</span></div>
+				</li>
+			</ul>
+			<div id="buy">
+				<ul class="mui-table-view">
+					<li class="mui-row" id="replenishment">
+					 	<img src="../imgs/icon_wybh.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">我要补货</div>
+					 	<span  class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+					 <li class="mui-row" id="manageaddress">
+					 	<img src="../imgs/icon_dzgl.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">地址管理</div>
+					 	<span  class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+				</ul>
+				<ul class="mui-table-view">
+					 <li class="mui-row" id="attentionshop">
+					 	<img src="../imgs/icon-gzdp.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">关注店铺</div>
+					 	<span  class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+					 <li class="mui-row" id="collectiongoods">
+					 	<img src="../imgs/icon_scsp.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">收藏商品</div>
+					 	<span  class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+					  <li class="mui-row" id="ineed">
+					 	<img src="../imgs/icon_wdxq.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">我的需求</div>
+					 	<span  class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+					  <li class="mui-row" id="ifootprint">
+					 	<img src="../imgs/icon_wdzj.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">我的足迹</div>
+					 	<span  class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+				</ul>
+				<ul class="mui-table-view">
+					 <li class="mui-row" id="applyshop">
+					 	<img src="../imgs/icon_sqkd.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">申请开店</div>
+					 	<span class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+					 <li class="mui-row">
+					 	<img src="../imgs/icon_zxkf.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">在线客服</div>
+					 	<span class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+				</ul>
+			</div>
+			<div id="sell">
+				<ul class="mui-table-view">
+					 <li class="mui-row" id="release">
+					 	<img src="../imgs/icon_wybh.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">发布上新</div>
+					 	<span class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+					 <li class="mui-row" id="goodsmanage">
+					 	<img src="../imgs/icon_hpgl.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">货品管理</div>
+					 	<span class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+				</ul>
+				<ul class="mui-table-view">
+					 <li class="mui-row" id="evaluatemanage">
+					 	<img src="../imgs/icon_pjgl.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">评价管理</div>
+					 	<span class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+					 <li class="mui-row" id="datastatistics">
+					 	<img src="../imgs/icon_sjtj.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">数据统计</div>
+					 	<span class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+					 <li class="mui-row">
+					 	<img src="../imgs/icon_zxkf.svg" width="16px" height="16px"/>
+					 	<div class="bottom-line">在线客服</div>
+					 	<span class="youjiantou"><img src="../imgs/icon_youjiantou.svg"/></span>
+					 </li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="../js/nhb_i/i.js" type="text/javascript" charset="utf-8"></script>
+</html>

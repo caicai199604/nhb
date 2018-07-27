@@ -1,0 +1,224 @@
+.mui-bar{
+	height: 3.783783rem !important;
+	width: 100%;
+	background-image: url(../../imgs/juxing@2x.png) !important;
+	background-repeat: no-repeat !important;
+	background-size: 100% 100%  !important;
+	padding-top: 0.54054rem;
+}
+.mui-bar-nav~.mui-content{
+	padding-top: 3.783783rem
+}
+.mui-row{
+	padding: 0.81081rem 0.54054rem;
+}
+.img{
+	width: 1.621621rem;
+	height: 1.621621rem;
+	margin-right: 0.378378rem;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+.name{
+	font-family: PingFang-SC-Bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: justify;
+}
+.set{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+}
+.member{
+	/*width: 2.27027rem;*/
+	height: 0.702702rem;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	border-radius: 100px;	
+	line-height: 0.702702rem;
+	display: flex;
+	padding: 0 8px 0 2px;
+}
+.member img{
+	width: 0.486486rem;
+	height: 0.486486rem;
+	margin: 0.108108rem;
+}
+.bg-gray{
+	display: none;
+	background: rgba(255,255,255,0.18);
+}
+.bg-pink{
+	display: none;
+	background-image: linear-gradient(-52deg, #FD7966 0%, #FF5057 100%);
+}
+.memberandentershop{
+	margin-top: 0.162162rem;
+	display: flex;
+}
+.entershop{
+	margin-left: 0.27027rem;
+	height: 0.702702rem;
+	background: rgba(255,255,255,0.18);
+	border-radius: 100px;
+	line-height:0.702702rem ;
+	text-align: center;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 8px;
+	padding-right: 2px;
+	display: none;
+}
+.entershop img{
+	width: 0.324324rem;
+	height: 0.432432rem;
+}
+
+.balancerecharge{
+	height: 1.297297rem;
+	background-color: #FFFFFF;
+	padding: 0 0.54054rem;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	
+}
+.balancere{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #999999;
+	letter-spacing: 0;
+}
+.balancere span{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #151515;
+	letter-spacing: 0;
+	line-height: 22px;
+}
+.charge{
+	width: 1.891891rem;
+	height: 0.81081rem;
+	border: 1px solid #333333;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 0.8rem;
+}
+
+ul{
+	margin-top: 0.27027rem !important;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #333333;
+}
+.iorder{
+	display: none;
+	margin-left: 0.378378rem;
+	padding: 0.378378rem 0;
+	border-bottom: 1px solid #EBEBEB;
+	position: relative;
+}
+.iorder span{
+	width: 0.594594rem;
+    height: 0.594594rem;
+	position: absolute;
+	top: 0.432432rem;
+	right: 0.378378rem;
+}
+.shoporder{
+	display: none;
+	margin-left: 0.378378rem;
+	padding: 0.378378rem 0;
+	border-bottom: 1px solid #EBEBEB;
+	position: relative;
+}
+.shoporder span{
+    width: 0.594594rem;
+    height: 0.594594rem;
+	position: absolute;
+	top: 0.432432rem;
+	right: 0.378378rem;
+}
+.mid{
+	text-align: center;
+	display: flex;
+	padding: 0.297297rem 0 0.27027rem;
+}
+.mid div{
+	width: 2.027027rem;
+	line-height: 17px;
+	position: relative;
+	
+}
+.mid div span{
+	display: block;
+}
+.mid div  img{
+	width: 0.864864rem;
+	height: 0.864864rem;
+	
+}
+.info{
+	display: none !important;
+	width: 0.432432rem;
+	height: 0.432432rem;
+	background:  #FF5057;
+	font-size: 12px;
+	color: #FFFFFF;
+	border-radius: 0.216216rem;
+	position: absolute;
+	top: 0rem;
+	right: 0.351351rem;
+}
+.complete{
+	display: none;
+}
+.mui-table-view .mui-row{
+	padding: 0;
+	padding-left:0.621621rem  ;
+	position: relative;
+}
+.mui-table-view .mui-row img{
+	width: 0.594594rem;
+	height: 0.594594rem;
+	position:  absolute;
+	top: 0.378378rem;
+}
+.mui-table-view .mui-row span{
+	width: 0.594594rem;
+	height: 0.594594rem;
+	position:  absolute;
+	top: 0.432432rem;
+	right: 0.378378rem;
+}
+.bottom-line{
+	padding: 0.378378rem 0 0.378378rem 0;
+	margin-left:0.891891rem ;
+	height: 1.297297rem;
+	border-bottom: 1px solid #EBEBEB;
+}
+.mui-table-view :last-child div{
+	border: 0;
+}
+.youjiantou img{
+	width: 0.432432rem !important;
+	height: 0.432432rem !important;
+	top: 0 !important;
+}
+#sell{
+	display: none;
+}

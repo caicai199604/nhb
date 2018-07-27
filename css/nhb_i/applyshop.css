@@ -1,0 +1,108 @@
+
+.mui-table-view-cell.mui-active{
+	background-color: #FFFFFF;
+}
+.mui-table-view-cell label{
+	width: 25%;
+    font-size: 14px;
+    color: #666666;
+    line-height: 20px;
+    padding: 0;
+}
+.mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea{
+	width: 75%;
+}
+.mui-table-view-cell{
+	padding: 14px 14px;
+	font-size: 14px;
+	color: #666666;
+}
+.mui-table-view-cell input{
+	/*height: 100%;*/
+    font-size: 14px;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+	height: auto;
+	padding: 0;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-left{
+	display: flex;
+	align-items: center;
+}
+.logo-left div{
+	width: 2.324324rem;
+}
+.logo-left img{
+	width: 1.351351rem;
+	height: 1.351351rem;
+}
+.sign-left{
+	display: flex;
+	align-items: center;
+}
+.sign-left div{
+	width: 2.324324rem;
+}
+.sign-left img{
+	width: 3.297297rem;
+	height: 1.351351rem;
+}
+.youjiantou{
+	width: 0.432432rem;
+	height: 0.432432rem;
+}
+.title{
+	height: 1.243243rem;
+	line-height: 1.243243rem;
+	padding-left: 14px;
+}
+.address{
+	width: 2.324324rem;
+}
+.box{
+	font-size: 14px;
+	color: #999999;
+}
+.box-mid{
+	padding: 0.378378rem;
+	background-color: #FFFFFF;
+}
+.box-mid img{
+	width: 2.945945rem;
+	height: 2.945945rem;
+}
+/*上传box样式*/
+.uploadbox{
+	width: 2.945945rem;
+	height: 2.945945rem;
+	text-align: center;
+	background: #F7F7FB;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.uploadbox img{
+	width: 0.918918rem;
+	height: 0.918918rem;
+	margin-bottom: 0.216216rem;
+}
+/*上传box样式*/
+.button{
+	margin: 0.648648rem auto;
+	width: 9.378378rem;
+	height: 1.189189rem;
+	line-height: 1.189189rem;
+	text-align: center;
+	background: #333333;
+	border-radius: 100px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: PingFang-SC-Bold;
+}

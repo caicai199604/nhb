@@ -1,0 +1,208 @@
+.del{
+	margin: 0.351351rem;
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	display: none;
+}
+.topbox{
+	height: 1.729729rem;
+	padding: 0.567567rem 0.378378rem;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #EBEBEB;
+}
+.topbox-type{
+	font-family: PingFang-SC-Bold;
+	font-size: 16px;
+	color: #333333;
+}
+.logisticsdetails{
+	font-family: PingFang-SC;
+	font-size: 16px;
+	color: #666666;
+	display: flex;
+	align-items: center;
+}
+.logisticsdetails span{
+	margin-right: 0.432432rem;
+	line-height: 0.594594rem;
+}
+.addressbox{
+	height: 2.378378rem;
+	padding: 0 0.378378rem;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.addressinfo{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.addressinfo-box{
+	margin-right: 0.432432rem;
+	font-size: 14px;
+	color: #999999;
+	text-align: right;
+}
+.address{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #BBBBBB;
+}
+.mui-table-view-cell.mui-active{
+	background-color: #FFFFFF;
+}
+.box{
+	margin-top: 0.27027rem;
+	background-color: #FFFFFF;
+}
+.box-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shopname{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shopname span{
+	font-size: 12px;
+	color: #333333;
+	margin: 0 0.216216rem;
+}
+.chat{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.chat img{
+	display: inline-block;
+	width: 0.432432rem;
+	height: 0.432432rem;
+}
+.chat span{
+	font-size: 12px;
+	color: #666666;
+	margin-left: 0.162162rem;
+}
+.box-mid{
+	width: 100%;
+	padding: 0.378378rem 0.378378rem;
+
+}
+.box-mid :last-child{
+	margin-bottom: 0;
+}
+.box-mid-info{
+	width: 100%;
+	display: flex;
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 0.378378rem;
+}
+.box-mid-info img{
+	width: 2.054054rem;
+	height: 2.054054rem;
+}
+.name{
+	width: 100%;
+	height: 2.054054rem;
+	margin-left: 0.27027rem;
+}
+.name-info{
+	width: 100%;
+}
+.name-type{
+	margin-top: 0.108108rem;
+	font-size: 12px;
+	color: #BBBBBB;
+}
+.moneyandcount{
+	margin-top: 0.351351rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	color: #333333;
+}
+.count{
+	font-size: 12px;
+}
+.remark{
+	width: 100%;
+	font-size: 14px;
+	color: #666666;
+	display: flex;
+}
+.remark span{
+	display: inline-block;
+}
+.remarkname{
+	width: 1.135135rem;
+}
+.remarkcontent{
+	width: calc(100% - 1.162162rem);
+	font-size: 14px;
+	color: #333333;
+}
+.box-bottom{
+	height: 1.297297rem;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 14px;
+	color: #666666;
+}
+.total{
+	display: flex;
+}
+.totalcount{
+	margin-right: 0.54054rem;
+}
+.totalmoney{
+	color: #FF5057;
+}
+.numberandtime{
+	margin-top: 0.27027rem;
+	padding:0.27027rem 0.378378rem;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	color: #BBBBBB;
+}
+.row{
+	display: flex;
+}
+.bottom{
+	height: 1.324324rem;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 0.27027rem;
+	padding-top: 0.243243rem;
+	padding-right: 0.378378rem;
+	font-size: 14px;
+	text-align: center;
+}
+.bg-white{
+	width: 2.27027rem;
+	height: 0.81081rem;
+	border: 1px solid  #CCCCCC;
+	border-radius: 100px; 
+	color: #666666;
+	line-height: 0.81081rem;
+}
+.bg-black{
+	margin-left: 0.54054rem;
+	width: 2.27027rem;
+	height: 0.81081rem;
+	border: 1px solid  #333333;
+	border-radius: 100px; 
+	line-height: 0.81081rem;
+	background-color: #333333;
+	color: #FFFFFF;
+}

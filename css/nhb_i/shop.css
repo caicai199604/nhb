@@ -1,0 +1,239 @@
+header{
+	display: none;
+}
+.mui-bar{
+	padding-left: 0;
+	padding-right: 0;
+}
+.headertop{
+	padding-left: 14px;
+	padding-right: 14px;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.mui-title{
+	width: 6.135135rem !important;
+	height: 44px;
+	position: relative;
+	padding-top: 6px;
+	left: 14px !important;
+}
+.mui-title img{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 14px;
+	left: 0.27027rem;
+}
+
+input{
+	font-size: 12px;
+	color: #999999;
+    border: 0 !important;
+	padding-left: 0.918918rem !important;
+	background-color: #EBEBEB !important;
+	opacity: 0.8;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+	height: 32px;
+	padding: 0 !important;
+	padding-left: 0.918918rem !important;
+}
+.top-message{
+	width: 0.594594rem;
+	height: 0.594594rem;
+	position: absolute;
+	right: 1.513513rem;
+	top: 0.297297rem;
+}
+.top-fenxiang{
+	width: 0.594594rem;
+	height: 0.594594rem;
+	position: absolute;
+	right: 0.378378rem;
+	top: 0.297297rem;
+}
+.mui-row{
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #999999;
+	text-align: center;
+}
+.mui-row .mui-col-xs-3{
+	background-color: #FFFFFF;
+}
+.active{
+	color: #333333;
+}
+.mui-content{
+	padding: 0 !important;
+}
+.shoptopheader{
+	padding: 0 0.378378rem;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.shoptopheader .mui-action-back{
+	margin-right: 0.378378rem;
+}
+.shoptop{
+	height: 4.162162rem;
+	padding-top: 0.54054rem;
+	background-image: url(../../imgs/Group.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.shopmid{
+	padding: 0.702702rem 0.378378rem 0.54054rem 0.378378rem;
+	display: flex;
+	justify-content: space-between;
+	color: #FFFFFF;	
+}
+.shopname{
+	display: flex;
+
+}
+.shopname img{
+	width: 1.351351rem;
+	height: 1.351351rem;
+	margin-right: 0.27027rem;
+}
+.name{
+	font-family: PingFang-SC-Bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-bottom: 0.162162rem;
+}
+.address{
+	display: flex;
+	align-items: center;
+}
+.address img{
+	width: 0.432432rem;
+	height: 0.432432rem;
+	margin-right: 0.27027rem;
+}
+.fan{
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.fans{
+	width: 1.891891rem;
+	font-size: 12px;
+	display: none;
+}
+.follow{
+	width: 1.891891rem;
+	height: 0.702702rem;
+	line-height: 0.702702rem;
+	font-size: 12px;
+	color: #333333;
+	background: #FFFFFF;
+	border-radius: 100px;
+	
+}
+.content{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+	width: 4.918918rem;
+	margin-bottom: 0.216216rem;
+}
+.img{
+	width: 100%;
+	height: 4.972972rem;
+	position: relative;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.burst{
+	width: 1.297297rem;
+	height: 0.702702rem;
+	line-height: 0.702702rem;
+	text-align: center;
+	background: #FF5057;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	position: absolute;
+	top: 0.216216rem;
+	left: 0;	
+}
+.new{
+	width: 1.297297rem;
+	height: 0.702702rem;
+	line-height: 0.702702rem;
+	text-align: center;
+	background: #333333;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	position: absolute;
+	top: 0.216216rem;
+	left: 0;	
+}
+.tail{
+	width: 1.297297rem;
+	height: 0.702702rem;
+	line-height: 0.702702rem;
+	text-align: center;
+	background: rgba(51,51,51,0.60);
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	position: absolute;
+	top: 0.216216rem;
+	left: 0;	
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+.goodsinfo{
+	padding: 0.216216rem 0.27027rem;
+	background-color: #FFFFFF;
+	
+}
+.goodsname{
+	width: 100%;
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 0.297297rem;
+}
+.moneyandcount{
+	display: flex;
+	justify-content: space-between;
+}
+.money{
+	font-size: 20px;
+	color: #ff5057;
+}
+.money span{
+	font-size: 14px;
+}
+.count{
+	font-size: 12px;
+	color: #999999;
+}
+.button{
+	position: fixed;
+	bottom:0;
+	height: 49px;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+	box-shadow: 0 0 0 0 #EBEBEB;
+	font-size: 15px;
+	color: #333333;
+	display: none;
+}
+.button img{
+	width: 16px;
+	height: 16px;
+	margin-right: 0.216216rem;
+}

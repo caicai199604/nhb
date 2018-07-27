@@ -1,0 +1,113 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow-x: hidden;
+}
+body{
+	font-family: PingFangSC-Regular;
+}
+header{
+	height: 1.229729rem;
+	display: flex;
+	flex: row;
+	align-items: center;
+	padding: 0 0.378378rem;
+	box-sizing: border-box;
+}
+header .title{
+	margin-left: 2.432432rem;
+	font-family: PingFang-SC-Bold;
+	font-size: 17px;
+	color: #333333;
+}
+/*搜索*/
+.content{
+}
+.search{
+	padding: 0 0.378378rem;
+	padding-bottom: 0.216216rem;
+	background: #fff;
+}
+.search div{
+	width: 100%;
+	height: 0.864864rem;
+	background: url(../../imgs/icon_search.svg)#F7F7FB;
+	background-repeat: no-repeat;
+	background-position: 0.27027rem;
+	background-size: 0.432432rem 0.432432rem;
+	padding: 0 0 0 0.918918rem;
+	border-radius: 0.054054rem;
+}
+.search div input{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	outline-style: none;
+	padding-left: 0;
+}
+.search input[placeholder]{
+	font-size: 12px;
+	color: #999999;
+}
+/*搜索列表展示*/
+.listBox{
+	width: 100%;
+}
+.listBox .title{
+	height: 1.027027rem;
+	display: flex;
+	align-items: center;
+	/*line-height: 1.027027rem;*/
+	background: #F7F7FB;
+	font-size: 14px;
+	color: #999999;
+	padding-left: 0.378378rem;
+}
+.listItem{
+	background: #fff;	
+	display: flex;
+	flex-direction: column;
+}
+.listItem .list{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 1.891891rem;
+	padding: 0.378378rem;
+}
+.listItem .list img{
+	width: 1.135135rem;
+	height: 1.135135rem;
+}
+.listItem .list p{
+	font-size: 0.378378rem;
+	color: #666666;
+	margin: 0;
+}
+.listItem .list .goodsInfo{
+	display: flex;
+	flex-direction: column;
+	margin-left: 0.27027rem;
+	position: relative;
+}
+.listItem .list .goodsInfo::after{
+	width: 8.351351rem;
+	content: '';
+	background: #EBEBEB;
+	height: 0.027027rem;
+	position: absolute;
+	bottom: -0.378378rem;
+}
+.listItem .list:last-of-type .goodsInfo::after{
+	content: '';
+	display: none;
+}
+.listItem .list p.goodsCode{
+	font-size: 0.324324rem;
+	color: #BBBBBB;
+}

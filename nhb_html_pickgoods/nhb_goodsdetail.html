@@ -1,0 +1,172 @@
+<!DOCTYPE >
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>详情</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link href="../css/common/mui.min.css" rel="stylesheet"/>
+	    <script src="../js/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../js/common/mui.js"></script>
+	    <link rel="stylesheet" href="../css/common/whole.css"/>
+	    <link rel="stylesheet" href="../css/nhb_pickgoods/goodsdetail.css"/>
+	    <script src="../js/common/ajax.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-pull-left"><img src="../imgs/icon-fanhui.svg"/></a>
+			<div class="mui-row header-box">
+				<div class="mui-col-xs-4" >货品 <span></span></div>
+				<div class="mui-col-xs-4" >详情<span></span></div>
+				<div class="mui-col-xs-4" >评价<span></span></div>
+			</div>
+			<img src="../imgs/icon_scsp.svg" class="top-shoucang"/>
+			<img src="../imgs/icon_fenx_small.svg" class="top-fenxiang"/>
+		</header>
+		<div class=" mui-content mui-scroll-wrapper" id="pullRefresh">
+    		<div class=" mui-scroll">
+				<div id="slider" class="mui-slider broadcast ">
+					<div class="img">
+						<img src="../imgs/icon_close.svg" class=" mui-action-back back"/>
+						<img src="../imgs/icon_shoucang.svg" class="shoucang"/>
+						<img src="../imgs/icon_fenxiang.svg" class="fenxiang"/>
+					</div>
+					<div class="mui-slider-group mui-slider-loop " id="sliderimg">
+						<!--<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#"><img src="../imgs/2.png"></a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#"><img src="../imgs/1.jpg"></a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#"><img src="../imgs/2.png"></a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#"><img src="../imgs/2.png"></a>
+						</div>
+						<div class="mui-slider-item">
+							<a href="#"><img src="../imgs/2.png"></a>
+						</div>
+						<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#"><img src="../imgs/1.jpg"></a>
+						</div>-->
+					</div>
+					<div class="mui-slider-indicator" id="mui-slider-indicator">
+						<!--<div class="mui-indicator mui-active"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>-->
+					</div>
+				</div>
+				
+				<div class="top" id="hp">
+					<div class="top-name" id="goods_name"></div>
+					<div class="top-money">
+						<span class="top-money-pink">￥</span>
+						<span class="top-money-size" id="price"></span>
+						<span>&nbsp;会员价：￥</span>
+						<span id="oprice"></span>
+					</div>
+					<div class="top-bottom">
+						<div class="top-bottom-1">
+							<div class="top-type" id="type"></div>
+							<div>已售<span id="sale"></span>件</div>
+						</div>
+						<div class="top-bottom-2">
+							<img src="../imgs/icon_chengshi.svg" alt="" />
+							<span class="top-address" id="city"></span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="shop">
+					<img src="../imgs/1.jpg" alt="" id="log_pic"/>
+					<div>
+						<div class="shopname" id="name"></div>
+						<div>粉丝：<span>99999</span>&nbsp;&nbsp;好评率：<span>99.99%</span></div>
+					</div>
+					<div class="gotoshop">进店逛逛</div>
+				</div>
+				<div class="goodsinfo" id="xq">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-media goodsinfo-title">
+							<img src="../imgs/sanjiaoxing.svg" alt="" />
+							<div>货品信息</div>
+						</li>
+						<li class="mui-table-view-cell mui-media goodsinfo-box">
+							<div class="margin-bottom">
+								<div class="half">分类：<span id="halftype"></span></div>
+								<div class="half">颜色：<span id="halfcolor"></span></div>
+								<div class="half">面料：<span id="halffabric"></span></div>
+								<div class="half">尺码：<span id="halfsize"></span></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="picture">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-media goodsinfo-title">
+							<img src="../imgs/sanjiaoxing.svg" alt="" />
+							<div>实拍图片</div>
+						</li>
+						<li class="mui-table-view-cell mui-media picture-box">
+							<!--<img src="../imgs/1.jpg"/>
+							<img src="../imgs/1.jpg"/>-->
+						</li>
+					</ul>
+				</div>
+				<div class="evaluate" id="pj">
+					<!--<ul class="mui-table-view evaluate-box">
+						<div class="evaluate-box-top">
+							<div class="nameportrait"><img src="../imgs/cion_th.svg" alt="" /><div class="username">jp53183516</div></div>
+							<div>
+								<img src="../imgs/icon_star.svg" alt="" />
+								<img src="../imgs/icon_star.svg" alt="" />
+								<img src="../imgs/icon_star.svg" alt="" />
+								<img src="../imgs/icon_star.svg" alt="" />
+								<img src="../imgs/icon_star.svg" alt="" />
+							</div>
+						</div>
+						<div class="evaluate-content">性价比不错，一次性拿了好几件，期待下次有更多好看的货，给个好</div>
+						<div class="evaluate-bottom">
+							<div class="evaluate-type">米白，M</div>
+							<div class="evaluate-time">2018-03-19</div>
+						</div>
+					</ul>
+					
+					<ul class="mui-table-view evaluate-box">
+						<div class="evaluate-box-top">
+							<div class="nameportrait"><img src="../imgs/cion_th.svg" alt="" /><div class="username">jp53183516</div></div>
+							<div>
+								<img src="../imgs/icon_star.svg" alt="" />
+								<img src="../imgs/icon_star.svg" alt=""  />
+								<img src="../imgs/icon_star.svg" alt="" />
+								<img src="../imgs/icon_star.svg" alt=""/>
+								<img src="../imgs/icon_star.svg" alt="" />
+							</div>
+						</div>
+						<div class="evaluate-content">性价比不错，一次性拿了好几件，期待下次有更多好看的货，给个好</div>
+						<div class="evaluate-bottom">
+							<div class="evaluate-type">米白，M</div>
+							<div class="evaluate-time">2018-03-19</div>
+						</div>
+					</ul>-->
+				</div>
+			</div>
+		</div>
+		
+		<div class="bottom">
+				<div><img src="../imgs/icon_dianpi_medium.svg" alt="" /><div>店铺</div></div>
+				<div><img src="../imgs/icon_message_medium.svg" alt="" /><div>私聊</div></div>
+				<div class="collect"><img src="../imgs/icon_dianpi_medium.svg" alt="" /><div>收藏</div></div>
+				<div><img src="../imgs/icon_nhc_medium.svg" alt="" /><div>拿货车</div></div>
+				<div  class="button" id="addcart">加入拿货车 </div>
+		</div>
+		
+		
+		       
+		</div>
+	</body>
+	<script src="../js/nhb_pickgoods/goodsdetail.js" type="text/javascript" charset="utf-8"></script>
+</html>

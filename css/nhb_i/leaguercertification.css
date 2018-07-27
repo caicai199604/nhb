@@ -1,0 +1,72 @@
+form{
+	margin-top: 0.27027rem;
+}
+.mui-input-row label{
+	width: 2.81081rem;
+	padding: 14px 14px;
+	font-size: 14px;
+	color: #666666;
+}
+.mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea{
+	width: calc(100% - 2.81081rem);
+}
+::-webkit-input-placeholder {  /*WebKit, Blink, Edge */
+    color: #BBBBBB;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ 	color: #BBBBBB;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #BBBBBB;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #BBBBBB;
+}
+input, select, textarea{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #BBBBBB;
+}
+.mui-table-view-cell{
+	position: relative;
+	display: flex;
+	padding: 9px 15px;
+	
+}
+.mui-table-view-cell :first-child{
+	width: 2.432432rem;	
+	font-size: 14px;
+	color: #666666;
+}
+.mui-table-view-cell :nth-child(2){
+	font-family: PingFangSC-Regular;
+	width: calc(100% - 2.81081rem);
+	font-size: 14px;
+	color: #BBBBBB;
+}
+.mui-table-view-cell img{
+	position: absolute;
+	top: 0.432432rem;
+	right: 0.378378rem;
+}
+.name{
+	margin: 0.432432rem 0 0.27027rem 0.378378rem;
+	font-size: 14px;
+	color: #999999;
+}
+.img-box{
+	height: 3.702702rem;
+	padding: 0.378378rem;
+	background-color: #FFFFFF;
+}
+.button{
+	width: 9.378378rem;
+	height: 1.189189rem;
+	line-height: 1.189189rem;
+	margin: 0.648648rem auto;
+	background-color: #333333;
+	border-radius: 100px;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+}

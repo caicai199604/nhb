@@ -1,0 +1,143 @@
+
+.info{
+	padding: 30px 14px;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	color: #333333;
+	position: relative;
+	overflow: hidden;
+}
+.info:after{
+	content: "";
+	position: absolute;
+	left: 14px;
+	bottom: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #EBEBEB;
+}
+.total{
+	font-family: PingFang-SC-Bold;
+	font-size: 17px;
+	color: #ff2027;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+.total span{
+	font-size: 36px;
+}
+.mui-row{
+	font-family: PingFang-SC-Bold;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+}
+.deadline{
+	height: 48px;
+	font-size: 13px;
+	color: #BBBBBB;
+	background-color: #FFFFFF;
+	padding-left: 14px;
+	line-height: 48px;
+}
+.recorddetail{
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	font-size: 13px;
+	color: #999999;
+}
+.recorddetailtop{
+	height: 48px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 14px;
+	font-size: 13px;
+	color: #666666;
+}
+.shuxian{
+	width: 4px;
+	height: 16px;
+	background: #333333;
+	border-radius: 100px;
+	margin-right: 10px;
+}
+.recorddetailmid{
+	padding-left: 14px;
+}
+.detaillist{
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 14px;
+	position: relative;
+	overflow: hidden;
+}
+.detaillist:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #EBEBEB;
+}
+.detaillist:last-child:after{
+	content: "";
+	position: absolute;
+	left: 14px;
+	bottom: 0;
+	width: 100%;
+	height: 0px;
+	background-color: #EBEBEB;
+}
+.money{
+	color: #333333;
+}
+
+
+
+
+.mui-popover{
+	top: 64px;
+	width: 100%;
+	height: 5.405405rem;
+}
+.mui-backdrop{
+	top:64px;
+}
+.screen{
+	margin:11px;
+	font-size: 16px;
+	color: #666666;
+	display: flex;
+	
+}
+.screen span{
+	z-index: 20;
+}
+.screen:active{
+	color: #666666;
+}
+.frame{
+	background: #FFFFFF;
+	border-top: 1px solid #ebebeb;
+	padding: 0 0.378378rem;
+}
+
+.nocheck{
+	border-bottom: 1px solid #ebebeb;
+	height: 1.297297rem;
+	line-height: 1.297297rem;
+	text-align: center;
+	font-size: 14px;
+	color: #BBBBBB;
+}
+.frame :last-child{
+	border-bottom: 0 solid #ebebeb;
+}
+.check{
+	font-size: 16px;
+	color: #333333;
+}

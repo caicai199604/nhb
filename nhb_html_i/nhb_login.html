@@ -1,0 +1,58 @@
+<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link href="../css/common/mui.min.css" rel="stylesheet"/>
+	    <script src="../js/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../js/common/mui.js"></script>
+	    <link rel="stylesheet" href="../css/common/whole.css"/>
+	    <link rel="stylesheet" href="../css/nhb_i/login.css"/>
+	    <script src="../js/common/ajax.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		 <header class="mui-bar mui-bar-nav">
+		 	<div class="close"><img src="../imgs/icon_close.svg"/></div>
+		 	<div class="register">注册</div>
+		 	<div class="login">
+		 		<div id="segmentedControl" class="mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item mui-active" href="#yzm">验证登录 <span></span></a>
+					<a class="mui-control-item" href="#mm">密码登录 <span></span></a>
+				</div>
+		 	</div>
+		</header>
+		<div class="mui-content">
+			<div id="yzm" class="mui-control-content mui-active">
+					<div class="input">
+						<input type="number" name="phone" id="yzmphone" value="" placeholder="请输入手机号"/>
+					</div>
+					<div class="input validate">
+						<input type="number" name="validate" id="validate" value="" placeholder="请输入验证码"/>
+						<div class="flex">
+							<span class="shuxian"></span>
+							<span class="getvalidate">获取验证码</span>
+						</div>
+					</div>
+					<div class="button" id="yzmlogin">登录</div>
+					<div class="huo">或</div>
+					<div class="mui-row">
+						<div class="mui-col-xs-6" id="qq"><img src="../imgs/icon_qq.svg" alt="" /><div>QQ</div></div>
+						<div class="mui-col-xs-6" id="wx"><img src="../imgs/icon_qq copy.svg" alt="" /><div>微信</div></div>
+					</div>
+			</div>
+			<div id="mm" class="mui-control-content">
+				<div class="input">
+					<input type="number" name="phone" id="mmphone" value="" placeholder="请输入手机号"/>
+				</div>
+				<div class="input">
+					<input type="password" name="password" id="password" value="" placeholder="请输入密码"/>
+				</div>
+				<div class="button" id="mmlogin">登录</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/nhb_i/login.js" type="text/javascript" charset="utf-8"></script>
+</html>

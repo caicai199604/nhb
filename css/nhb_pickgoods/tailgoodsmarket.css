@@ -1,0 +1,141 @@
+
+
+.box{
+	margin-top: 0.27027rem;
+	background-color: #FFFFFF;
+	padding: 0.27027rem 0 0.378378rem;
+}
+.box-top{
+	height: 1.189189rem;
+	padding: 0 0.378378rem;
+	margin-bottom: 0.27027rem;
+	position: relative;	
+	display: flex;
+	align-items: center;
+}
+.portrait{
+	display: inline-block;
+	margin-right: 0.378378rem;
+}
+.portrait img{
+	width: 1.189189rem;
+	height: 1.189189rem;
+}
+.nameposition{
+	display: inline-block;
+}
+.shopname{
+	font-size: 0.405405rem;
+	line-height: 0.405405rem;
+	color: #333333;
+}
+.position{
+	display: flex;
+	align-items: center;
+	font-size: 0.378378rem;
+	line-height: 0.378378rem;
+	color: #999999;
+}
+.position img{
+	width: 0.432432rem;
+	height: 0.432432rem;
+}
+.follow,.unfollow{
+	/*display: none;*/
+	position: absolute;
+	right: 0.378378rem;
+	top: 0.189189rem;
+	width: 1.891891rem;
+	height: 0.81081rem;
+	text-align: center;
+	font-size: 0.378378rem;
+	line-height: 0.81081rem;
+	color: #BBBBBB;
+	border: 1px solid #CCCCCC;
+	border-radius: 100px;
+}
+/*.unfollow{*/
+	/*display: none;*/
+	/*position: absolute;
+	right: 0.378378rem;
+	top: 0.189189rem;
+	width: 1.891891rem;
+	height: 0.81081rem;
+	line-height: 0.81081rem;
+	text-align: center;
+	font-size: 0.378378rem;
+	color: #BBBBBB;
+	border: 1px solid #CCCCCC;
+	border-radius: 100px;
+}*/
+.box-mid{
+	text-align: center;
+	font-size: 0.324324rem;
+	line-height: 0.324324rem;
+	color: #999999;
+	height: 1.513513rem;
+	padding: 0.216216rem 0;
+	margin-bottom: 0.27027rem;
+}
+.box-mid .mui-col-xs-3{
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.shuxian{
+	width: 1px;
+	height: 0.783783rem;
+	background-color: #EBEBEB;
+	position: absolute;
+	top: 0.27027rem;
+	right: 0;
+}
+.box-mid .mui-col-xs-3 span{
+	font-size: 0.324324rem;
+	line-height: 0.324324rem;
+	color: #999999;
+}
+.box-mid .mui-col-xs-3 div{
+	border-bottom: 2px;
+	font-size: 0.432432rem;
+	line-height: 0.432432rem;
+	color: #333333;
+}
+.box-bottom{
+	padding: 0 0.378378rem;
+	position: relative;
+}
+.box-bottom:after{
+	display: block;
+	clear: both;
+	content: "";
+	visibility:hidden;
+	height:0;
+}
+.img-mid{
+	margin: 0 0.108108rem;
+}
+.box-bottom img{
+	float: left;
+	width: calc((100% - 0.216216rem)/3);
+	height: 3.054054rem;
+}
+.showmore{
+	width:calc((100% - 0.972972rem)/3);
+	position: absolute;
+	right: 0.378378rem;
+	top: 0;
+	background: rgba(0,0,0,0.40);
+	font-size: 0.378378rem;
+	line-height: 0.378378rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

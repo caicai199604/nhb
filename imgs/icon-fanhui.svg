@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-返回</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon-返回" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7.41065124,10.9030573 L16.610164,20.1959685 C16.9987109,20.5884601 16.9955131,21.2216171 16.6030214,21.610164 C16.2105297,21.9987109 15.5773728,21.9955131 15.1888259,21.6030214 L5.28933095,11.6030214 C4.9021709,11.2119307 4.90376288,10.5815185 5.29289322,10.1923882 L15.1923882,0.292893219 C15.5829124,-0.0976310729 16.2160774,-0.0976310729 16.6066017,0.292893219 C16.997126,0.683417511 16.997126,1.31658249 16.6066017,1.70710678 L7.41065124,10.9030573 Z" id="Line-2" fill="#333333" fill-rule="nonzero"></path>
+    </g>
+</svg>

@@ -1,0 +1,125 @@
+header{
+	height: 150px  !important;
+	position: relative;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-top: 2.243243rem !important;
+	background-image: url(../../imgs/Group.png) !important;
+	background-repeat: no-repeat !important;
+	background-size: 100% 100% !important;
+}
+.mui-bar{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-content: center;
+	padding-bottom: 10px;
+}
+.close{
+	position: absolute;
+	top: 31px;
+	left: 14px;
+}
+.register{
+	position: absolute;
+	top:33px;
+	right: 16px;
+}
+.login{
+	width: 100%;
+	font-size: 18px ;
+	color: #BBBBBB ;
+}
+.mui-segmented-control{
+	font-size: 18px ;
+	display: flex;
+	justify-content: space-around;
+}
+.mui-segmented-control .mui-control-item{
+	width: auto;
+}
+.login a span{
+	display: none;
+	height: 0.054054rem;
+	width: 0.594594rem;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.login .mui-active span{
+	display: block;
+}
+.login .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	border-bottom:0px !important;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.mui-content{
+	min-height:calc(100%) ;
+	background-color: #FFFFFF;
+	padding:0.81081rem 0.81081rem 0 0.81081rem;
+	padding-top: 180px !important;
+}
+.input{
+	height: 44px;
+	background: #F7F7FB;
+	border-radius: 100px;
+}
+.mui-content input{
+	height: 100%;
+	background-color: transparent !important;
+	border-radius: 46px;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+	padding: 11px 20px; 
+	line-height: 22px;
+	border: 0px solid rgba(0,0,0,.2);
+}
+input, select, textarea{
+	font-size: 16px;
+}
+.validate{
+	margin: 0 auto;
+	margin-top: 0.378378rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	
+}
+.validate input{
+	width: 100px;
+	padding: 0;
+}
+.shuxian{
+	width: 0.054054rem;
+	border: 1px solid #c6c6c9;
+}
+.getvalidate{
+	display: block;
+	width: 80px;
+	text-align: right;
+}
+
+.button{
+	height: 1.189189rem;
+	margin: 1.081081rem auto 1.351351rem;
+	text-align: center;
+	font-family: PingFang-SC-Bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #333333;
+	border-radius: 100px;
+	line-height: 1.189189rem;
+}
+.huo{
+	width: 0.54054rem;
+	margin: 0 auto 0.54054rem;
+}
+.mui-col-xs-6{
+	text-align: center;
+}
+#password{
+	display: block;
+	margin-top: 0.378378rem  !important;
+}

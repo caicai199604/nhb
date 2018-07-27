@@ -1,0 +1,210 @@
+
+.mui-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.listItem{
+	background: #fff;	
+	display: flex;
+	flex-direction: column;
+}
+.listItem .list{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 1.891891rem;
+	padding: 0.378378rem;
+}
+.listItem .list img{
+	width: 1.135135rem;
+	height: 1.135135rem;
+}
+.listItem .list p{
+	font-size: 0.378378rem;
+	color: #666666;
+	margin: 0;
+}
+.listItem .list .goodsInfo{
+	display: flex;
+	flex-direction: column;
+	margin-left: 0.27027rem;
+	position: relative;
+}
+.listItem .list .goodsInfo::after{
+	width: 8.351351rem;
+	content: '';
+	background: #EBEBEB;
+	height: 0.027027rem;
+	position: absolute;
+	bottom: -0.378378rem;
+}
+.listItem .list:last-of-type .goodsInfo::after{
+	content: '';
+	display: none;
+}
+.listItem .list p.goodsCode{
+	font-size: 0.324324rem;
+	color: #BBBBBB;
+}
+
+.mui-content{
+	overflow-x: hidden;
+}
+.goback{
+	background: url(../../imgs/icon-fanhui.svg) transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	width: 0.594594rem;
+	height: 0.594594rem;
+}
+.listItem{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding: 0.378378rem;
+	margin-top: 0.27027rem;
+	padding-bottom: 0;
+}
+.userInfo{
+	width: 100%;
+	height: 1.081081rem;
+	display: flex;
+	margin-bottom: 0.378378rem;
+	justify-content: space-between;
+}
+.flex{
+	display: flex;
+}
+.flex .nixkName{
+	flex-direction: column;
+	margin-left: 0.27027rem;
+}
+.userInfo img{
+	width: 1.081081rem;
+	height: 1.081081rem;
+	border-radius: 50%;
+}
+.userInfo div{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.share{
+	align-items: center;
+	margin: 0;
+	justify-content: flex-end;
+	flex-direction:row !important;
+	font-size: 14px;
+	color: #333333;
+}
+.share img{
+	width: 0.432432rem;
+	height: 0.432432rem;
+	margin-right: 6px;
+}
+.nixkName span{
+	font-size: 0.378378rem;
+	color: #333333;
+}
+.nixkName .date{
+	font-size: 0.324324rem;
+	color: #BBBBBB;
+}
+.listContent{
+	font-size: 0.432432rem;
+	color: #333333;
+	margin-bottom: 0.378378rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+}
+.listImgs img{
+	width: 3rem;
+	height: 3rem;
+}
+.listImgs{
+	position: relative;
+}
+.listImgs:after {
+    content: '';
+    width: 9.729729rem;
+    height: 1px;
+    background: #EBEBEB;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.persons{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	height: 1.297297rem;
+}
+.persons>span{
+	color: #999999;
+}
+.persons>div{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 1.297297rem;
+}
+.persons>div .personPhoto{
+	display: flex;
+	align-items: center;
+}
+.persons>div img{
+	margin-left: 0.27027rem;
+	width: 0.648648rem;
+	height: 0.648648rem;
+}
+.youjiantou {
+	width: 0.432432rem !important;
+	height: 0.432432rem !important;
+}
+.persons>div span{
+	font-size: 0.486486rem;
+	color: #ccc;
+	margin-left: 0.405405rem;
+}
+.guestbook{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 1.2% 4.3%;
+	border-top: 1px solid #EBEBEB;
+	z-index: 2;
+	background: #fff;
+
+}
+.guestbookBox{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.guestbook.display{
+	display: none;
+}
+.guestbook input{
+	border: none;
+	outline-style: none;
+	background: #F7F7FB;
+	border-radius: 0.054054rem;
+	width: 7.756756rem;
+	height: 0.918918rem;
+	border-radius: 0.054054rem;	
+}
+::-webkit-input-placeholder{
+	font-size: 0.378378rem;
+	color: #BBBBBB;
+}
+.guestbook #send{
+	font-size: 0.432432rem;
+	color: #999999;
+}

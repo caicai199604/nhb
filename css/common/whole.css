@@ -1,0 +1,48 @@
+html{
+	height: 100% ;
+}
+ body{
+	margin: 0;
+	padding: 0;
+	height: 100% ;
+	width: 100%;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+}
+input{
+	margin: 0 !important;
+}
+header{
+	background: #FFFFFF !important;
+}
+.mui-bar-nav~.mui-content{
+	padding-top: 64px;
+}
+.mui-bar{
+	height: 64px;
+	padding-top: 20px !important;
+}
+
+.mui-icon-back:before, .mui-icon-left-nav:before{  /*mui默认的回退键颜色更改*/
+	color:  #333333;
+}
+.mui-bar-nav{
+	box-shadow: 0 0px 0px #ccc;
+}
+.mui-table-view-cell:after{
+	left: 14px;
+}
+h1{
+	font-family: PingFang-SC-Bold;
+	font-size: 17px !important;
+	color: #333333 !important;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.flex{
+	display: flex;
+}

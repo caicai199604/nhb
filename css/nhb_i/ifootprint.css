@@ -1,0 +1,135 @@
+.edit{
+	margin: 0.351351rem;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #666666;
+	letter-spacing: 0;
+	text-align: center;
+}
+.over{
+	display: none;
+	margin: 0.351351rem;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #666666;
+	letter-spacing: 0;
+	text-align: center;
+}
+.mui-table-view-cell.mui-active{
+	background-color: #FFFFFF;
+}
+.active{
+	padding-bottom: 1.324324rem;
+}
+.box{
+	/*padding-left: 0.378378rem;*/
+}
+.box-top{
+	height: 1.189189rem;
+	padding-left: 14px;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: #999999;
+}
+.check{
+	height: 100%;
+	width: 0.972972rem;
+	align-items: center;
+	display: none;
+}
+.check-show .box-top .check{
+	display: flex;
+}
+.check-show .box-mid .check{
+	display: flex;
+}
+.check-show .name{
+	/*width: 6.081081rem;*/
+}
+.check img{
+	display: none;
+	width: 0.432432rem;
+	height: 0.432432rem;
+	vertical-align:middle;
+}
+.check :first-child{
+	display: block;
+}
+.check-active  :first-child{
+	display: none;
+}
+.check-active :nth-child(2){
+	display: block;
+}
+
+.box-mid{
+	height: 2.378378rem;
+	display: flex;
+	align-items: center;
+}
+.box-mid-info{
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+}
+.name{
+	/*width: 7.054054rem;*/
+	position: relative;
+}
+.box-mid-info p{
+	width: 100%;
+	font-size: 14px;
+	color: #666666;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.img{
+	margin-right: 0.27027rem;
+}
+.img img{
+	width: 2.054054rem;
+	height: 2.054054rem;
+}
+.money{
+	font-size: 16px;
+	color: #333333;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.bottom{
+	width: 100%;
+	height: 1.324324rem;
+	padding-left: 0.378378rem;
+	position: fixed;
+	bottom: 0;
+	background-color: #FFFFFF;
+	display: none;
+}
+.bottom .check{
+	width: auto;
+	display: flex;
+	align-items: center;
+}
+.bottom .check .checkall{
+	margin-left: 0.27027rem;
+	font-size: 14px;
+	color: #333333;
+}
+.delete{
+	width: 3.243243rem;
+	height: 1.324324rem;
+	line-height: 1.324324rem;
+	background-color: #FF5057;
+	text-align: center;
+	font-family: PingFang-SC-Bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	right: 0;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>拿货车</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link href="../css/common/mui.min.css" rel="stylesheet"/>
+	    <script src="../js/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../js/common/mui.js"></script>
+	    <link rel="stylesheet" href="../css/common/whole.css"/>
+	    <link rel="stylesheet" href="../css/nhb_shoppingcart/shoppingcart.css"/>
+	    <script src="../js/common/ajax.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">拿货车</h1>
+			<span class="mui-pull-right edit">编辑</span>
+			<span class="mui-pull-right over">完成</span>
+		</header>
+		
+    	<div class=" mui-content mui-scroll-wrapper" id="pullrefresh">
+    		<div class=" mui-scroll">
+    			
+	    			<!--<div class="mid ">
+		    			<div class="storename">	
+							<div class="nocheck">
+								<img src="../imgs/icon_weixuan.svg"/>
+								<img src="../imgs/icon_gouxuan.svg"/>
+							</div>
+							<div class="shopname">
+								<img src="../imgs/icon_sqkd.svg"/ class="shopimg">
+								<span class="name">&nbsp;火号火焰兔&nbsp;</span>
+								<img src="../imgs/icon_youjiantou.svg" alt=""  class="youjiantouimg"/>
+							</div>
+						</div>
+						<ul class="mui-table-view ">
+							<li class="mui-table-view-cell">
+				    			<div class="mui-slider-handle">
+				    				
+									<div class="goods ">
+										<div class="nocheck ">
+											<img src="../imgs/icon_weixuan.svg"/>
+											<img src="../imgs/icon_gouxuan.svg"/>
+										</div>
+										<div class="goodsright"> 
+											<img src="../imgs/1.jpg" alt="" class="goodsimg"/>
+											<div class="info">
+												<div class="mui-ellipsis goodsname">冬装新款时尚简约气质外套格fdsalfjslk </div>
+												<div class="type">米白，M</div>
+												<div class="info-bottom" >
+													<div class="money">￥25555.00</div>
+													<div class="count">
+														<img src="../imgs/icon_minus.svg" class="jian"/>
+														<div>3</div>
+														<img src="../imgs/icon_plus.svg"  class="jia"/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								<div class="mui-slider-right mui-disabled">
+									<a class="mui-btn mui-btn-red">删除</a>
+								</div>
+							</li>
+							
+							<li class="mui-table-view-cell">
+				    			<div class="mui-slider-handle">
+				    				
+									<div class="goods ">
+										<div class="nocheck ">
+											<img src="../imgs/icon_weixuan.svg"/>
+											<img src="../imgs/icon_gouxuan.svg"/>
+										</div>
+										<div class="goodsright">
+											<img src="../imgs/1.jpg" alt="" class="goodsimg"/>
+											<div class="info">
+												<div class="mui-ellipsis goodsname">冬装新款时尚简约气质外套格fdsalfjslk </div>
+												<div class="type">米白，M</div>
+												<div class="info-bottom" >
+													<div class="money">￥25555.00</div>
+													<div class="count">
+														<img src="../imgs/icon_minus.svg" class="jian"/>
+														<div>3</div>
+														<img src="../imgs/icon_plus.svg" class="jia"/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								<div class="mui-slider-right mui-disabled">
+									<a class="mui-btn mui-btn-red">删除</a>
+								</div>
+							</li>
+							
+						</ul>
+						
+		    	</div>-->
+		    	
+		    	<!--<div class="mid ">
+		    			<div class="storename">	
+							<div class="nocheck">
+								<img src="../imgs/icon_weixuan.svg"/>
+								<img src="../imgs/icon_gouxuan.svg"/>
+							</div>
+							<div class="shopname">
+								<img src="../imgs/icon_sqkd.svg"/ class="shopimg">
+								<span class="name">&nbsp;火号火焰兔&nbsp;</span>
+								<img src="../imgs/icon_youjiantou.svg" alt=""  class="youjiantouimg"/>
+							</div>
+						</div>
+						<ul class="mui-table-view ">
+							<li class="mui-table-view-cell">
+				    			<div class="mui-slider-handle">
+				    				
+									<div class="goods ">
+										<div class="nocheck ">
+											<img src="../imgs/icon_weixuan.svg"/>
+											<img src="../imgs/icon_gouxuan.svg"/>
+										</div>
+										<div class="goodsright">
+											<img src="../imgs/1.jpg" alt="" class="goodsimg"/>
+											<div class="info">
+												<div class="mui-ellipsis goodsname">冬装新款时尚简约气质外套格fdsalfjslk </div>
+												<div class="type">米白，M</div>
+												<div class="info-bottom" >
+													<div class="money">￥25555.00</div>
+													<div class="count">
+														<img src="../imgs/icon_minus.svg" class="jian"/>
+														<div>3</div>
+														<img src="../imgs/icon_plus.svg"  class="jia"/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								<div class="mui-slider-right mui-disabled">
+									<a class="mui-btn mui-btn-red">删除</a>
+								</div>
+							</li>
+							
+							<li class="mui-table-view-cell">
+				    			<div class="mui-slider-handle">
+				    				
+									<div class="goods ">
+										<div class="nocheck ">
+											<img src="../imgs/icon_weixuan.svg"/>
+											<img src="../imgs/icon_gouxuan.svg"/>
+										</div>
+										<div class="goodsright">
+											<img src="../imgs/1.jpg" alt="" class="goodsimg"/>
+											<div class="info">
+												<div class="mui-ellipsis goodsname">冬装新款时尚简约气质外套格fdsalfjslk </div>
+												<div class="type">米白，M</div>
+												<div class="info-bottom" >
+													<div class="money">￥25555.00</div>
+													<div class="count">
+														<img src="../imgs/icon_minus.svg" class="jian"/>
+														<div>3</div>
+														<img src="../imgs/icon_plus.svg"  class="jia"/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								<div class="mui-slider-right mui-disabled">
+									<a class="mui-btn mui-btn-red">删除</a>
+								</div>
+							</li>
+							
+						</ul>
+						
+		    	</div>-->
+		    	
+		    	
+    		
+    		</div>
+    	</div>
+    	
+    	<div class="bottom">
+    		<div class="bottomcheckbox">
+    			<div class="nocheck">
+    				<img src="../imgs/icon_weixuan.svg"/>
+    				<img src="../imgs/icon_gouxuan.svg"/>
+    			</div>
+    			<div>全选</div>
+    		</div>
+    		<div class="total">合计:<span>￥0.00</span></div>   
+			<div class="bottombutton black">结算(<span>0</span>)</div>
+    		<div class="bottombutton red">删除(<span>0</span>)</div>
+    	</div>
+	</body>
+	<script src="../js/nhb_shoppingcart/shoppingcart.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE >
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>发布上新下一页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link href="../css/common/mui.min.css" rel="stylesheet"/>
+	    <script src="../js/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../js/common/mui.js"></script>
+	    <link rel="stylesheet" href="../css/common/whole.css"/>
+	    <link rel="stylesheet" href="../css/nhb_i/releasenewnext.css"/>
+	    <script src="../js/common/ajax.js" type="text/javascript" charset="utf-8"></script>
+	    <link href="../css/common/mui.picker.css" rel="stylesheet" />
+		<link href="../css/common/mui.poppicker.css" rel="stylesheet" />
+	    <script src="../js/common/mui.picker.js"></script>
+		<script src="../js/common/mui.poppicker.js"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-pull-left">上一步</a>
+			<h1 class="mui-title">发布上新</h1>
+		</header>
+		<div class="mui-content">
+			<div class="box">
+				<div class="titlelist">
+					<div class="title">货品标题</div>
+					<input type="text" name="tilte" id="title" value="" data-name="货品标题" placeholder="不超过30字" maxlength="30"/>
+				</div>
+				<div class="typelist">
+					<div class="flex">
+						<div class="type">上新类型</div>
+						<div class="specifictype" id="newtype" data-name="newtype">请选择类型</div>
+					</div>
+					<img src="../imgs/icon_youjiantou.svg" alt="" />
+				</div>
+			</div>
+			<div class="box">
+				<div class="ordinarylist">
+					<div class="ordinary">普通价</div>
+					<div class="ordinaryinput">
+						<div>￥</div>
+						<input type="number" name="ordinary" id="ordinary" value="" placeholder="" data-name="普通价"/>
+					</div>
+				</div>
+				<div class="ordinarylist">
+					<div class="ordinary">会员价</div>
+					<div class="ordinaryinput">
+						<div>￥</div>
+						<input type="number" name="member" id="member" value="" placeholder="" data-name="会员价"/>
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<div class="goodslist">
+					<div class="flex">
+						<div class="type">货品分类</div>
+						<div class="specifictype" id="goodstype" data-name="goodstype">请选择类型</div>
+					</div>
+					<img src="../imgs/icon_youjiantou.svg" alt="" />
+				</div>
+				<div class="goods">
+					<div class="title">货号</div>
+					<input type="number" name="goods" id="goods" value="" placeholder="请输入货号" data-name="货号"/>
+				</div>
+			</div>
+			
+			<div class="colorbox">
+				<a class="colorboxtop" href="#frame">
+					<div class="flex">
+						<div class="colorsize">颜色尺码</div>
+						<div>请添加</div>
+					</div>
+					<img src="../imgs/icon_youjiantou.svg"/>
+				</a>
+				<!--<div class="colorlist">
+					<div>米白</div>
+					<div class="colorlistright"><span>S</span>,<span>M</span>,<span>L</span><img src="../imgs/icon_shanc.svg" alt="" class="colse"/></div>
+				</div>-->
+			</div>
+		</div>
+		<div id="frame" class="mui-popover mui-popover-action mui-popover-arrow">
+		   <div class="frame">
+		   		<div class="size">
+		   			<div>尺码</div>
+		   			<img src="../imgs/icon_close_guige.svg" alt="" id="close"/>
+		   			<div class="sizemid">
+		   				<div class="nocheck" data-value="均">均码</div>
+		   				<div class="nocheck" data-value="XS">XS</div>
+		   				<div class="nocheck" data-value="S">S</div>
+		   				<div class="nocheck" data-value="M">M</div>
+		   				<div class="nocheck" data-value="L">L</div>
+		   				<div class="nocheck" data-value="XL">XL</div>
+		   			</div>
+		   		</div>
+		   		<div class="color">
+		   			<div>颜色</div>
+		   			<input type="text" placeholder="请输入颜色" id="color"/>
+		   		</div>
+		   		<div class="add">确认添加</div>
+		   </div>
+		</div>
+		<div class="release">确认发布</div>
+	</body>
+	<script src="../js/nhb_i/releasenewnext.js" type="text/javascript" charset="utf-8"></script>
+</html>

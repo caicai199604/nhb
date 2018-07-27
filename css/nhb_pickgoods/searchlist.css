@@ -1,0 +1,161 @@
+header{
+	padding: 0;
+}
+.header{
+	padding-right: 10px; 
+ 	padding-left: 10px;
+	height: 1.229729rem !important;
+}
+.mui-bar{
+	padding-right: 0px; 
+     padding-left: 0px; 
+}
+.mui-bar-nav{
+	box-shadow: 0 0px 0px #ccc; 
+}
+.mui-bar .mui-title{
+	width: 100%;
+	margin: 0.162162rem  0.189189rem;
+}
+.top{
+	position: relative;
+	width: 8.405405rem;
+	height: 0.864864rem;
+}
+.top img{
+	width: 0.43rem;
+	height: 0.43rem;
+	position: absolute;
+	top: 0.21rem;
+	left: 0.27rem;
+}
+.input{
+	width: 100%;
+	height: 0.82rem !important;
+	background-color: #F7F7FB !important;
+	border-radius: 2px;
+	font-family: PingFangSC-Regular;
+	border: 0px !important;	
+	font-size: 12px;
+	color: #999999;
+	letter-spacing: 0;
+	padding-left: 0.91rem !important;
+}
+.content-top{
+	width: 100%;
+	position: fixed;
+	height: 1.081081rem;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.type{
+	height: 100%;
+	font-size: 14px;
+	color: #999999;
+	vertical-align: middle;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.type span{
+	/*display: inline-block;*/
+	/*vertical-align: middle;*/
+}
+.price{
+	height: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	color: #999999;
+}
+.img-s{
+	display: none;
+}
+.img-x{
+	display: none;
+}
+.active{
+	color: #333333;
+}
+.filter{
+	height: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	color: #333333;
+}
+.mid{
+	margin-top: 1.081081rem;
+}
+.box{
+	display: inline-block;
+	width: calc((100% - 0.189189rem)/2);
+	height: 7.351351rem;
+	/*width: 0.189189rem;*/
+	overflow: hidden;
+	background-color: #FFFFFF;
+	margin-bottom: 0.216216rem;
+}
+.box:nth-of-type(2n){
+	margin-left: 0.189189rem
+}
+.picture{
+	width: 100%;
+	height: 4.972972rem;
+}
+.info{
+	width: 4.918918rem;
+	height: 2.378378rem;
+	padding: 0.216216rem 0.27027rem;
+	position: relative;
+}
+.info p{
+	width: 100%;
+	margin: 0;
+	margin-bottom: 0.108108rem;
+	font-size: 14px;
+	color: #333333;
+	line-height: 0.54054rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.money{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #FF5057;
+	letter-spacing: 0;
+	text-align: justify;
+	position: absolute;
+	top: 1rem;
+	left: 0.27027rem;
+}
+.money span{
+	font-size: 12px;
+}
+.sales{
+	font-size: 12px;
+	color: #999999;
+	letter-spacing: 0;
+	text-align: justify;
+	position: absolute;
+	top:1rem;
+	right: 0.27027rem;
+}
+.bottom{
+	margin-top: 1rem;
+	font-size: 10px;
+	color: #999999;
+	display: flex;
+	justify-content: space-between;
+}
+.shopname{
+	display: flex;
+	justify-content: center;
+}
+.gotoshop{
+	display: flex;
+	justify-content: center;
+}

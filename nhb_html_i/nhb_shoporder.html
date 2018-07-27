@@ -1,0 +1,64 @@
+<!DOCTYPE >
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>店铺订单</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+		<script src="../js/common/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link href="../css/common/mui.min.css" rel="stylesheet"/>
+	    <script src="../js/common/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../js/common/mui.js"></script>
+	    <link rel="stylesheet" href="../css/common/whole.css"/>
+	    <link rel="stylesheet" href="../css/nhb_i/shoporder.css"/>
+	    <script src="../js/common/ajax.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+	 		<a class="mui-action-back mui-icon mui-pull-left"><img src="../imgs/icon-fanhui.svg"/></a>
+			<h1 class="mui-title">店铺订单</h1>
+			<div id="segmentedControl" class="mui-segmented-control mui-segmented-control-inverted">
+				<div class="mui-control-item mui-active" >全部 <span class="solid"></span></div>
+				<div class="mui-control-item" >待付款<span class="solid"></span></div>
+				<div class="mui-control-item " >待发货 <span class="solid"></span></div>
+				<div class="mui-control-item" >待发货 <span class="solid"></span></div>
+				<div class="mui-control-item " >已完成 <span class="solid"></span></div>
+			</div>
+		</header>
+		<div class="mui-content">
+
+			<ul class="mui-table-view box">
+				 <li class="mui-table-view-cell box-top">
+				 	<div>
+				 		<img src="../imgs/icon_maishou.svg" alt="" />
+				 		<span class="shopname">布衣酱少女时装</span>
+				 		<img src="../imgs/icon_youjiantou.svg" alt="" />
+				 	</div>
+					<div class="orderstate">待付款</div>
+				 </li>
+		         <li class="mui-table-view-cell ">
+		         	<div class="box-mid">
+		         		<div class="img"><img src="../imgs/1.jpg" alt="" /></div>
+			         	<div class="info">
+			         		<div class="mui-ellipsis info-name">冬装新款时尚简约气质外套格子中长fdfdgfdsgfdgfdgdfgfdg</div>
+			         		<div class="info-type">米白，M</div>
+			         		<div class="info-moneycount"><div class="money">¥24.50</div><span class="count">x3</span></div>
+			         	</div>
+		         	</div>
+		         </li>
+		         <li class="mui-table-view-cell box-bottom">
+		         		<div>共<span class="totalgoods">8</span>件货品</div>
+		         		<div>&nbsp;&nbsp;&nbsp;合计：</div>
+		         		<div class="totalmoney">	¥147.00</div>
+		         </li>
+		          <li class="mui-table-view-cell button">
+		          		<div>支付剩余00:29:15</div>
+		          		<div class="bgbai">私聊拿货手</div>
+		          		<!--<div class="bghei">确认发货</div>-->
+		          </li>
+			</ul>
+			
+
+		</div>
+	</body>
+	<script src="../js/nhb_i/shoporder.js" type="text/javascript" charset="utf-8"></script>
+</html>

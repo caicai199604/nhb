@@ -1,0 +1,95 @@
+
+
+.box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 14px;
+	background: #FFFFFF;
+	font-size: 14px;
+	color: #666666;
+	margin-top: 10px;
+	position: relative;
+}
+.box:after{
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 14px;
+	width: calc(100% - 14px);
+	content: "";
+	background: #EBEBEB;
+}
+.img{
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	overflow: hidden;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+.list{
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 14px;
+	background: #FFFFFF;
+	position: relative;
+	font-size: 14px;
+	color: #666666;
+}
+.list:after{
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 14px;
+	width: calc(100% - 14px);
+	content: "";
+	background: #EBEBEB;
+}
+.lisr:last-child:after{
+	height: 0;
+}
+.listleft{
+	display: flex;
+	align-items: center;
+	width: 30%;
+}
+.listright{
+	display: flex;
+	align-items: center;
+	width: 70%;
+	justify-content: space-between;
+}
+input{
+	border: 0;
+	font-size: 14px;
+}
+::-webkit-input-placeholder {  /*WebKit, Blink, Edge */
+    color: #BBBBBB;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ 	color: #BBBBBB;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #BBBBBB;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #BBBBBB;
+}
+.sex{
+	color: #BBBBBB;
+}
+.button{
+	margin: 24px auto;
+	width: 9.378378rem;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background: #333333;
+	border-radius: 100px;
+	font-size: 16px;
+	color: #FFFFFF;
+}

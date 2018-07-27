@@ -1,0 +1,84 @@
+
+#save{
+	margin:11px;
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+}
+.mui-table-view-cell.mui-active{
+	background-color: #FFFFFF;
+}
+.mui-table-view-cell{
+	padding: 14px 14px;
+	height: 48px;
+}
+.mui-table-view-cell input{
+	height: 100%;
+	font-size: 14px;
+}
+.mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea{
+	width: 75%;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+	padding: 0;
+}
+.mui-table-view-cell label{
+	width: 25%;
+	font-size: 14px;
+	color: #666666;
+	line-height: 20px;
+	padding: 0;
+}
+::-webkit-input-placeholder {  /*WebKit, Blink, Edge */
+    color: #BBBBBB;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ 	color: #BBBBBB;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #BBBBBB;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #BBBBBB;
+}
+.mui-table-view-cell:after{
+	left: 14px;
+}
+.address{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 14px;
+	color: #666666;
+}
+.addressinfo{
+	width: 25%;
+}
+.address img{
+	width: 16px;
+	height: 16px;
+}
+.picker{
+	width: 75%;
+	font-size: 14px;
+	color: #BBBBBB;
+}
+.textarea{
+	height:88px;
+	padding: 14px;
+	overflow: hidden;
+}
+#textarea{
+	height: 100%;
+	border: 0;
+	font-size: 14px;
+}
+.default{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #333333;
+}
+.mui-switch-blue.mui-active{
+	border: 2px solid #333333;
+    background-color: #333333;
+}

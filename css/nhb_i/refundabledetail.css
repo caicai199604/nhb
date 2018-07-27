@@ -1,0 +1,187 @@
+.mui-bar-nav~.mui-content{
+	padding-bottom: 50px;
+}
+.top{
+	padding: 0.27027rem 0.432432rem;
+	font-size: 12px;
+	color: #999999;
+	background-color: #FFFFFF;
+}
+.mid{
+	margin: 0.27027rem 0;
+	background-color: #FFFFFF;
+}
+.mid-top{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.378378rem;
+	height: 1.081081rem;
+	line-height: 1.081081rem;
+	font-size: 13px;
+	color: #666666;
+}
+.mid-top-right{
+	display: flex;
+	align-items: center;
+}
+.mid-top-right img{
+	margin-right: 0.162162rem;
+	width: 0.432432rem;
+	height: 0.432432rem;
+}
+.mid-info{
+	width: 100%;
+	display: flex;
+	font-size: 14px;
+	color: #666666;
+	padding: 0.378378rem 0;
+	padding-left: 0.378378rem;
+}
+.mid-info img{
+	width: 2.054054rem;
+	height: 2.054054rem;
+}
+.goodsname{
+	
+	width: calc(100% - 2.324324rem);
+	/*width: 7.054054rem;*/
+	height: 2.054054rem;
+	margin-left: 0.27027rem;
+	padding-right: 0.378378rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.name-info{
+	width: 100%;
+}
+.name-type{
+	margin-top: 0.108108rem;
+	font-size: 12px;
+	color: #BBBBBB;
+}
+.moneyandcount{
+	/*margin-top:0.351351rem;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	color: #333333;
+}
+.count{
+	font-size: 12px;
+}
+.hengxian{
+	margin-left: 0.378378rem;
+	height: 1px;
+	background-color: #EBEBEB;
+	
+}
+.mid-bottom{
+	padding: 0.27027rem 0.378378rem 0.378378rem 0.378378rem;
+	font-size: 13px;
+	color: #999999;
+}
+.bottom{
+	background-color: #FFFFFF;
+	position: relative;
+}
+.bottombox{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.isbusinessbottombox{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.bottombox:nth-of-type(2n+1):before{
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 50%;
+	top: 50%;
+	left: 1.01rem;
+	background: #EBEBEB;
+}
+.bottombox:nth-of-type(2n):before{
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 50%;
+	top:0;
+	left: 1.01rem;
+	background: #EBEBEB;
+}
+.bottomcontent{
+	width: 7.972972rem;
+	font-size: 14px;
+	color: #666666;
+	padding:  0.378378rem 0;
+	padding-right: 0.378378rem;
+	border-bottom: 1px solid #EBEBEB; 
+}
+.bottombox-img{
+	width: 2.054054rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 10;
+}
+#shuxian{
+	position: absolute;
+	width: 1px;
+	background: #EBEBEB;
+	top: 25%;
+	left: 1.027027rem;
+	height: 50%;
+}
+.greycircle{
+	width: 10px;
+	height: 10px;
+	background: #DDDDDD;
+	border-radius: 10px;
+}
+.time{
+	font-size: 12px;
+	color: #BBBBBB;
+	margin-top: 0.27027rem;
+}
+.isbusinessbottom{
+	background-color: #FFFFFF;
+	padding: 0 0.378378rem;
+	display: flex;
+}
+.button{
+	width: 100%;
+	height: 1.324324rem;
+	line-height:1.324324rem ;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #333333;
+}
+.isbusinessbutton{
+	z-index: 20;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-size: 16px;
+	height: 1.324324rem;
+	line-height:1.324324rem ;
+	width: 100%;
+	color: #FFFFFF;
+}
+.refuse{
+	width: 50%;
+	background: #666666;
+}
+.agree{
+	width: 50%;
+	background: #333333;
+}

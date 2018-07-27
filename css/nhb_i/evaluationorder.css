@@ -1,0 +1,45 @@
+
+
+
+#submit{
+	margin:11px;
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+}
+.box{
+	background-color: #FFFFFF;
+	margin-bottom: 0.27027rem;
+}
+.box-top{
+	display: flex;
+	padding: 0.162162rem 0.378378rem;
+	border-bottom: 1px solid #EBEBEB; 
+}
+.box-top .img{
+	width: 2.27027rem;
+	height: 2.27027rem;
+}
+.box-mid{
+	margin: 0.432432rem 0.378378rem;
+	min-height: 4.108108rem;
+	font-size: 14px;
+	color: #BBBBBB;
+}
+.box-top-info{
+	margin-left: 0.378378rem;
+	font-size: 12px;
+	color: #BBBBBB;
+}
+.name{
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 0.108108rem;
+}
+.imgs{
+	margin-top: 0.445945rem;
+}
+.imgs img{
+	width: 0.608108rem;
+	height: 0.608108rem;
+}

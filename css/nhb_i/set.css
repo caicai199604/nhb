@@ -1,0 +1,17 @@
+header{
+	background-color: #FFFFFF !important;
+}
+ul{
+	margin-top: 0.27027rem !important;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+}
+.quit{
+	margin-top: 0.81081rem !important;
+	text-align: center;
+}
+.mui-badge{
+	background: none;
+	color: #999999;
+}
+

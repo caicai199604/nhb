@@ -1,0 +1,121 @@
+body{
+	background-color: #FFFFFF;
+}
+header{
+	padding: 0;
+	padding-top:0.702702rem ;
+	font-family: PingFangSC-Regular;
+}
+.top{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items: center;
+}
+.logo{
+	width: 1.7rem;
+	height: 0.75rem;
+}
+.search{
+	width: 6.1rem;
+	height: 0.85rem;
+	background: #F7F7FB;
+	border-radius: 0.05rem;
+	font-family: PingFangSC-Regular;
+	font-size: 0.32rem; 
+	color: #999999;
+	letter-spacing: 0;
+	display: flex;
+	line-height:0.85rem;
+}
+.search img{
+		margin: 0.21rem 0.23rem 0.27rem;
+		display: block;
+		width: 0.43rem;
+		height: 0.43rem;
+}
+.information {
+	width: 0.69rem;
+	height: 0.69rem;
+}
+.information img{
+	display: block;
+	width:100%;
+	height: 100%;
+}
+.bg{
+	padding-bottom: 20px;
+	background: #FFFFFF;
+}
+.broadcast{
+	width: 9.378378rem;
+	height: 7.027027rem;
+	/*padding-top: 64px;*/
+	margin: 0 auto;
+	margin-bottom: 0.621621rem;
+}
+.broadcast a img{
+	width: 9.378378rem;
+	height: 7.027027rem;
+	border-radius: 2px;
+}
+.mid{
+	/*margin-bottom: 0.702702rem;*/
+	display: flex;
+	width: 100%;
+	text-align: center;
+}
+.mid a{
+	width: 25%;
+}
+.mid  img{
+	margin: 0 auto;
+	display: block;
+	width: 1.027027rem;
+	height: 1.027027rem;
+}
+.mid a span{
+	margin: 0 auto;
+	display: block;
+	font-family: PingFangSC-Regular;
+	font-size: 0.32rem;
+	color: #666666;
+	letter-spacing: 0;
+	text-align: center;
+}
+.supplygoods{
+	padding: 10px 0.16rem 0;
+	margin-bottom: 0;
+	background: #FFFFFF ;
+	/*货源bg白色*/
+}
+.supplygoods .goods{
+	width: 9.68rem;
+	height: 7.25rem;
+	margin-bottom: 0.26rem;
+	border-radius: 0.007rem;
+	position: relative;
+}
+.supplygoods .goods img{
+	width: 100%;
+	height: 100%;
+}
+.supplygoods .goods .shadow{
+	width: 100%;
+	height: 3.09rem;
+	position: absolute;
+	top: 2.08rem;
+	background: rgba(0,0,0,0.40);
+	font-family: PingFang-SC-Bold;
+	font-size: 0.8rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 3.09rem;
+}
+.goods:last-child{
+	margin-bottom: 0;
+}
+.mui-pull-bottom-pocket{
+	background: #FFFFFF;
+}

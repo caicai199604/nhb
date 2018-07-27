@@ -1,0 +1,115 @@
+{
+	"index.html": {
+		"resources": [
+			"nhb_html_pickgoods/nhb_pickgoods.html"
+		],
+		"refer": [
+			"nhb_html_pickgoods/nhb_pickgoods.html",
+			"nhb_html_classification/nhb_classification.html",
+			"nhb_html_i/nhb_i.html",
+			"nhb_html_shoppingcart/nhb_shoppingcart.html",
+			"nhb_html_i/nhb_login.html"
+		]
+	},
+	"nhb_html_pickgoods/nhb_pickgoods.html": {
+		"refer": [
+			"nhb_html_pickgoods/nhb_daysandtoday.html",
+			"nhb_html_pickgoods/nhb_supplygoods.html",
+			"nhb_html_pickgoods/nhb_chatandnotice.html",
+			"nhb_html_pickgoods/nhb_tailgoodsmarket.html",
+			"nhb_html_pickgoods/nhb_search.html",
+			"nhb_html_pickgoods/nhb_needmarket.html"
+		]
+	},
+	"nhb_html_i/nhb_i.html": {
+		"refer": [
+			"nhb_html_i/nhb_charge.html",
+			"nhb_html_i/nhb_leaguercertification.html",
+			"nhb_html_i/nhb_set.html",
+			"nhb_html_i/nhb_replenishment.html",
+			"nhb_html_i/nhb_manageaddress.html",
+			"nhb_html_i/nhb_shop.html",
+			"nhb_html_i/nhb_myorder.html",
+			"nhb_html_i/nhb_refundable.html",
+			"nhb_html_i/nhb_ifootprint.html",
+			"nhb_html_i/nhb_attentionshop.html",
+			"nhb_html_i/nhb_collectiongoods.html",
+			"nhb_html_i/nhb_ineed.html",
+			"nhb_html_i/nhb_applyshop.html"
+		]
+	},
+	"nhb_html_i/nhb_shop.html": {
+		"refer": [
+			"nhb_html_pickgoods/nhb_goodsscreen.html",
+			"nhb_html_i/nhb_releasenew.html"
+		]
+	},
+	"nhb_html_pickgoods/nhb_supplygoods.html": {
+		"refer": [
+			"nhb_html_i/nhb_shop.html",
+			"nhb_html_i/nhb_login.html"
+		]
+	},
+	"nhb_html_i/nhb_releasenew.html": {
+		"refer": [
+			"nhb_html_i/nhb_releasenewnext.html"
+		]
+	},
+	"nhb_html_i/nhb_login.html": {
+		"refer": [
+			"nhb_html_i/nhb_register.html"
+		]
+	},
+	"nhb_html_pickgoods/nhb_daysandtoday.html": {
+		"refer": [
+			"nhb_html_pickgoods/nhb_search.html",
+			"nhb_html_pickgoods/nhb_goodsdetail.html"
+		]
+	},
+	"nhb_html_pickgoods/nhb_needmarket.html": {
+		"refer": [
+			"nhb_html_pickgoods/nhb_releaseneed.html",
+			"nhb_html_pickgoods/nhb_needdetail.html"
+		]
+	},
+	"nhb_html_i/nhb_manageaddress.html": {
+		"refer": [
+			"nhb_html_i/nhb_deliveryaddress.html"
+		]
+	},
+	"nhb_html_i/nhb_set.html": {
+		"refer": [
+			"nhb_html_i/nhb_modifypassword.html",
+			"nhb_html_i/nhb_bankcardmanagement.html",
+			"nhb_html_i/nhb_changephone.html"
+		]
+	},
+	"nhb_html_pickgoods/nhb_tailgoodsmarket.html": {
+		"refer": [
+			"nhb_html_pickgoods/nhb_search.html",
+			"nhb_html_i/nhb_login.html"
+		]
+	},
+	"nhb_html_pickgoods/nhb_goodsdetail.html": {
+		"refer": [
+			"nhb_html_i/nhb_orderaffirm.html",
+			"nhb_html_pickgoods/nhb_goodsdetail_addcart.html"
+		]
+	},
+	"nhb_html_pickgoods/nhb_goodsdetail_addcart.html": {
+		"refer": [
+			"nhb_html_i/nhb_orderaffirm.html",
+			"nhb_html_i/nhb_login.html"
+		]
+	},
+	"nhb_html_shoppingcart/nhb_shoppingcart.html": {
+		"refer": [
+			"nhb_html_i/nhb_orderaffirm.html"
+		]
+	},
+	"nhb_html_i/nhb_orderaffirm.html": {
+		"refer": [
+			"nhb_html_i/nhb_manageaddress.html"
+		]
+	}
+}

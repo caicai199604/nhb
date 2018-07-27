@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10-拿货车" transform="translate(-14.000000, -86.000000)" fill="#333333">
+            <g id="Group" transform="translate(-82.000000, 74.000000)">
+                <g id="Group-7" transform="translate(82.000000, 0.000000)">
+                    <g id="Group-2" transform="translate(14.000000, 12.000000)">
+                        <path d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M11.8640991,5.33232867 L7.68267021,10.4146259 L4.3226273,7.96884741 C4.09936774,7.80633656 3.78663902,7.85558312 3.62412817,8.07884268 C3.46161731,8.30210225 3.51086387,8.61483096 3.73412344,8.77734182 L7.47514481,11.5004349 C7.68910718,11.6561783 7.98737086,11.6182252 8.15551065,11.4138606 L12.636327,5.96767438 C12.8117728,5.75442956 12.7811307,5.43933348 12.5678859,5.26388761 C12.3546411,5.08844174 12.039545,5.11908384 11.8640991,5.33232867 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

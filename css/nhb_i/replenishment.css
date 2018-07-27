@@ -1,0 +1,132 @@
+.screen{
+	margin:11px;
+	font-size: 16px;
+	color: #666666;
+	display: flex;
+}
+.screen span{
+	z-index: 20;
+}
+.screen:active{
+	color: #666666;
+}
+.time{
+	height: 1.189189rem;
+	line-height: 1.189189rem;
+	padding-left: 0.378378rem;
+	font-size: 14px;
+	color: #999999;
+}
+.dabox :last-child{
+	margin-bottom: 0;
+}
+.box{
+	background-color: #FFFFFF;
+	margin-bottom: 0.27027rem;
+}
+.box-info{
+	width: 100%;
+	display: flex;
+	font-size: 14px;
+	color: #666666;
+	padding: 0.378378rem 0;
+	padding-left: 0.378378rem;
+}
+.box-info img{
+	width: 2.054054rem;
+	height: 2.054054rem;
+}
+.goodsname{
+	width: 100%;
+	width: calc(100% - 2.054054rem - 0.27027rem);
+	height: 2.054054rem;
+	margin-left: 0.27027rem;
+	padding-right: 0.378378rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.name-info{
+	width: 100%;
+}
+.name-type{
+	/*margin-top: 0.108108rem;*/
+	font-size: 12px;
+	color: #BBBBBB;
+}
+.moneyandcount{
+	/*margin-top: 0.351351rem;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	color: #333333;
+}
+.count{
+	font-size: 12px;
+}
+.hengxian{
+	margin-left: 0.378378rem;
+	height: 1px;
+	background-color: #EBEBEB;
+	
+}
+.box-bottom{
+	height: 1.297297rem;
+	padding: 0.243243rem 0.378378rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.addtruck{
+	
+	width: 2.648648rem;
+	height: 0.81081rem;
+	line-height: 0.81081rem;
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+	border: 1px solid #CCCCCC;
+	border-radius: 100px;
+}
+.reorder{
+	margin-left: 0.54054rem;
+	width: 2.648648rem;
+	height: 0.81081rem;
+	line-height: 0.81081rem;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 100px;
+	background: #333333;
+}
+.mui-popover{
+	top: 64px;
+	width: 100%;
+	height: 5.405405rem;
+}
+.mui-backdrop{
+	top:64px;
+}
+.frame{
+	background: #FFFFFF;
+	border-top: 1px solid #ebebeb;
+	padding: 0 0.378378rem;
+}
+
+.nocheck{
+	border-bottom: 1px solid #ebebeb;
+	height: 1.297297rem;
+	line-height: 1.297297rem;
+	text-align: center;
+	font-size: 14px;
+	color: #BBBBBB;
+}
+.frame :last-child{
+	border-bottom: 0 solid #ebebeb;
+}
+.check{
+	font-size: 16px;
+	color: #333333;
+}

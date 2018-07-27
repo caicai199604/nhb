@@ -1,0 +1,270 @@
+@charset "utf-8";
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow-x: hidden;
+}
+body{
+	font-family: PingFangSC-Regular;
+}
+header{
+	height: 1.229729rem;
+	display: flex;
+	flex: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 0.378378rem !important;
+	box-sizing: border-box;
+}
+header span{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #666666;
+}
+
+.listItem{
+	background: #fff;	
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding: 14px;
+	padding-bottom: 0;
+}
+.userInfoleft{
+	display: flex;
+	flex-direction: row;
+}
+.fenxiang{
+	display: flex;
+	align-items: center;
+	display: none;
+}
+.fenxiangimg{
+	width: 16px;
+	height: 16px;
+	margin-right: 6px;
+}
+.goback{
+	background: url(../../imgs/icon-fanhui.svg) transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	width: 0.594594rem;
+	height: 0.594594rem;
+}
+.listItem{
+	
+}
+.userInfo{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom:14px;
+}
+.userimg{
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	margin-right: 14px;
+}
+.nixkName{
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+	color: #333333;
+}
+.nixkName span{
+	font-size: 0.378378rem;
+	color: #333333;
+}
+.date{
+	font-size: 12px;
+	color: #BBBBBB;
+}
+.listContent{
+	font-size: 16px;
+	color: #333333;
+	margin-bottom: 0.378378rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+}
+.box-bottom{
+	position: relative;
+}
+.box-bottom:after{
+	display: block;
+	clear: both;
+	content: "";
+	visibility:hidden;
+	height:0;
+}
+.img-mid{
+	margin: 0 0.108108rem;
+}
+.box-bottom img{ 
+	float: left;
+	width: calc((100% - 0.216216rem)/3);
+	height: 3.054054rem;
+	margin-bottom: 0.108108rem;
+}
+.showmore{
+	width:calc((100% - 0.216216rem)/3);
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgba(0,0,0,0.40);
+	font-size: 0.378378rem;
+	line-height: 0.378378rem;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.listImgs img{
+	width: 3rem;
+	height: 3rem;
+}
+.operation{
+	display: flex;
+	width: 100%;
+	height: 1.297297rem;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	font-size: 14px;
+	color: #333333;
+	display: none;
+}
+.operation div{
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+}
+.operation div img{
+	width: 16px;
+	height: 16px;
+    margin-right: 6px;
+}
+.operation::after{
+	content: '';
+	width: calc(100% + 14px);
+	height: 1px;
+	background: #EBEBEB;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.operation .fenxiang{
+	justify-content: center;
+}
+.persons{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	height: 48px;
+	font-size: 12px;
+	color: #999999;
+}
+.persons-right{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+#personPhoto{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+#personPhoto img{
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}
+.leavemessagebox{
+	margin-top: 10px;
+	background: #FFFFFF;
+	padding: 20px 14px 0;
+}
+.leavemessagelist{
+	padding-bottom: 20px;
+}
+/*.leavemessagelist:last-child{
+	margin-bottom: 0;
+}*/
+.leavemessagetop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	color: #333333;
+	
+}
+.leavemessageleft{
+	display: flex;
+	justify-content: flex-start;
+}
+.leavemessageleft img{
+	width: 24px;
+	height: 24px;
+	border-radius: 100px;
+	margin-right: 10px;
+}
+.leavemessagecontent{
+	margin-left: 34px;
+	font-size: 14px;
+	color: #666666;
+}
+.time{
+	font-size: 12px;
+	color: #BBBBBB;
+}
+.guestbook{
+	display:none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 1.2% 4.3%;
+	border-top: 1px solid #EBEBEB;
+	z-index: 2;
+	background: #fff;
+
+}
+.guestbookBox{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.guestbook input{
+	border: none;
+	outline-style: none;
+	background: #F7F7FB;
+	border-radius: 0.054054rem;
+	width: 7.756756rem;
+	height: 0.918918rem;
+	border-radius: 0.054054rem;	
+}
+::-webkit-input-placeholder{
+	font-size: 0.378378rem;
+	color: #BBBBBB;
+}
+.guestbook #send{
+	font-size: 0.432432rem;
+	color: #999999;
+}
